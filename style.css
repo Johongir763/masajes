@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to right, #3183ff8d, #eb28d8);
+    padding: 15px 30px;
+    color: white;
+}
+
+
+.logo>img {
+    height: 100px;
+}
+
+
+.nav-links {
+    display: flex;
+    gap: 39px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #00aaff;
+}
+
+
+.site-footer {
+    background: linear-gradient(to right, #3183ff8d, #eb28d8);
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+    margin-top: 60px;
+    font-family: sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.gallery-grid img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-footer {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-footer h2 {
+    font-size: 24px;
+    color: #222;
+    margin-bottom: 10px;
+}
+
+.gallery-footer p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+.site-footer a {
+    color: #ffdb58;
+    text-decoration: none;
+}
+
+
+.footer-content p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    margin-top: 15px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #ddd;
+}
